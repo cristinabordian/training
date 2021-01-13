@@ -1,0 +1,778 @@
+ html body {
+    position: absolute;
+    background-color: #022557;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.moon {
+    position: absolute;
+    right: 10px;
+    top: -150px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: inset -19px 1px 3px 1px yellow;
+    background-color: transparent;
+    transform: rotate(-12deg);
+   
+}
+
+
+.house-1 {
+    display: inline-block;
+    z-index: -2;
+    position: relative;
+}
+
+.house-1 .body {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: #88B6F2;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    z-index: -1;
+}
+
+.house-1 .body .window {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.house-1 .body .window2 {
+    position: absolute;
+    top: 40px;
+    left: 130px;
+}
+
+.house-1 .body .window3 {
+    position: absolute;
+    top: 150px;
+    left: 130px;
+}
+.house-1 .body .window4 {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+.w-top {
+   
+    width: 38px;
+    height: 20px;
+    background-color: lightyellow;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+ .w-glass1 {
+    display: table-cell;
+    width: 18px;
+    height: 30px;
+    background-color: lightyellow;
+    border-style: solid;
+    border-width: 1px 0.5px 1px 1px;
+    margin-right: 0;
+    
+}
+ .w-glass2 {
+    display: table-cell;
+    width: 18px;
+    height: 30px;
+    background-color: lightyellow;
+    margin-left: 0;
+    border-style: solid;
+    border-width: 1px 1px 1px 0.5px;
+    
+}
+ .w-legde {
+    width: 50px;
+    height: 10px;
+    background-color: peru;
+    margin-left: -5.5px;
+    border: 1px solid black;
+
+}
+.house-1 .penthouse {
+    position: absolute;
+    left: 28px;
+    bottom: 255px;
+    
+    width: 142px;
+    height: 142px;
+    background-color: #88B6F2;
+    box-shadow: 1px 2px 5px 3px black;
+    border-top: 5px solid #641E16 ;
+    border-right: 5px solid #641E16 ;
+    transform: rotate(-45deg);
+    z-index: -2;
+}
+.house-1 .p-window {
+   
+    margin-top: 45px;
+    margin-left: 53px;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border: 1px solid black;
+    width: 50px;
+    height: 20px;
+    background-color: lightyellow;
+    transform: rotate(45deg);
+}
+
+.house-1 .basement {
+    width: 200px;
+    height: 20px;
+    background-color: #F28729;
+    border: 2px solid black;
+}
+
+
+.house-2 {
+    display: inline-block;
+    margin: -10px;
+    
+}
+
+.house-2 .roof {
+    position: absolute;
+    bottom: 341px;
+    left: -20px;
+    width: 250px;
+    height: 120px;
+    background-image: linear-gradient(#3C100B, #734843);
+    border: 2px solid black;
+    box-shadow: 1px -2px 2px 1px black;
+    transform: skew(-2deg);
+
+}
+
+.house-2 .body-2{
+    position: relative;
+    width: 200px;
+    height: 340px;
+    display: inline-block;
+    background-color: #F2C335;
+}
+.wrow-1 .square1 {
+   width: 15px;
+   height: 20px;
+   background-color: lightyellow;
+   display: table-cell;
+   border: 1px solid black;
+}
+.wrow-1 .square2 {
+    width: 15px;
+    height: 20px;
+    background-color: lightyellow;
+    display: table-cell;
+    border: 1px solid black;
+}
+.wrow-2 .square1 {
+    width: 15px;
+    height: 20px;
+    background-color: lightyellow;
+    display: table-cell;
+    border: 1px solid black;
+}
+.wrow-2 .square2 {
+     
+     width: 15px;
+     height: 20px;
+     background-color: lightyellow;
+     display: table-cell;
+     border: 1px solid black;
+}
+
+.wrow-3 .square1 {
+    width: 15px;
+    height: 20px;
+    background-color: lightyellow;
+    display: table-cell;
+    border: 1px solid black;
+}
+.wrow-3 .square2 {
+    width: 15px;
+     height: 20px;
+     background-color: lightyellow;
+     display: table-cell;
+     border: 1px solid black;
+}
+
+.house-2 .w-ledge {
+      width: 40px;
+      height: 10px;
+      margin-left: -2px;
+      background-color: maroon;
+}
+
+.house-2 .tall-window1 {
+      position: absolute;
+      left: 20px;
+      top: 20px;
+}
+
+.house-2 .tall-window2 {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+
+.house-2 .tall-window3 {
+    position: absolute;
+    left: 140px;
+    top: 20px;
+}
+
+.house-2 .tall-window4 {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+.house-2 .tall-window5 {
+    position: absolute;
+    left: 80px;
+    top: 120px;
+}
+
+.house-2 .tall-window6 {
+    position: absolute;
+    left: 140px;
+    top: 120px;
+}
+
+.house-2 .window {
+    position: absolute;
+    left: 20px;
+    top: 220px;
+    
+
+}
+
+
+
+.house-2 .door .left-door {
+    position: absolute;
+    left: 80px;
+    top:248px;
+    width: 20px;
+    height: 80px;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.house-2 .door .right-door {
+    position: absolute;
+    left: 100px;
+    top:248px;
+    width: 20px;
+    height: 80px;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.house-2 .door .door-step {
+    position: absolute;
+    left: 70px;
+    top: 330px;
+    width: 60px;
+    height: 5px;
+    background-color: gray;
+}
+
+.house-3 {
+    display: inline-block;
+    margin-left: -1px;
+    
+}
+
+.house-3 .tower .segment1 {
+    width: 25px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left:122px ;
+    background-color: #C0C0C0;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    box-shadow: 1px 1px 3px 1px black;
+}
+
+.house-3 .tower .segment2 {
+    width: 45px;
+    height: 60px;
+    border: 1px solid black;
+    margin-left:112px ;
+    background-color: #C0C0C0;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.house-3 .tower .segment2 > div {
+    width: 30px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: #708090;
+    margin: auto;
+    margin-top: 15px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.house-3 .tower .clock {
+    width: 100px;
+    height:100px;
+    background-color: #C0C0C0;
+    margin-left: 85px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px black;
+    
+}
+
+.house-3 .tower .clock >div {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-top: 9px;
+    background-color: #36454F;
+    border: 1px solid black;
+    
+}
+
+.house-3 .tower .clock > div .round {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-top: 9px;
+    border: 1px solid black;
+    background-color: #C0C0C0;
+    border-radius: 100%;
+}
+
+.house-3 .tower .clock > div .round > div {
+    width: 25px;
+    height: 25px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    transform: rotate(90deg) translateY(-29px) translateX(3px);
+
+}
+
+.house-3 .tower .stairs{
+    width: 80px;
+    height: 90px;
+    background-color: #C0C0C0;
+    margin-left: 95px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.house-3 .tower .stairs div:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 4px;
+    background-color: #708090;
+}
+
+.house-3 .tower .stairs div:nth-child(2) {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #708090;
+    margin: auto;
+    margin-top: 6px;
+}
+
+.house-3 .roof {
+    width: 270px;
+    height: 100px;
+    border: 1px solid black;
+    background-image: linear-gradient(40deg, #CC7722, #80461B);
+    transform: skew(-2deg);
+}
+
+.house-3 .body {
+    
+    width: 270px;
+    height: 160px;
+    border: 1px solid black;
+    background-color: #87CEEB;
+}
+
+.house-3 .window {
+    position: relative;
+    width: 90px;
+    margin: auto;
+}
+
+.house-3 .window .w-left {
+    display: table-cell;
+    width: 40px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: lightsteelblue;
+    
+}
+.house-3 .window .w-right {
+    display: table-cell;
+    width: 40px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: lightsteelblue;
+}
+
+.house-3 .window .decoration {
+    transform: skew(-14deg);
+}
+
+.house-3 .window .decoration div  {
+    
+    display: table-cell;
+    width: 10px;
+    height: 25px;
+    border: 1px solid black;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+
+.house-3 .window .decoration div:nth-child(1) {
+    background-color: crimson;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.house-3 .window .decoration div:nth-child(2) {
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.house-3 .window .decoration div:nth-child(3) {
+    background-color: crimson;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.house-3 .window .decoration div:nth-child(4) {
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.house-3 .window .decoration div:nth-child(5) {
+    background-color: crimson;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.house-3 .window .decoration div:nth-child(6) {
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.house-3 .window .decoration div:nth-child(7) {
+    background-color: crimson;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.house-4 {
+    display: inline-block;
+    margin-left: -6px;
+    
+}
+
+.house-4 .segment-5 {
+    width: 300px;
+    height: 160px;
+    background-color: #E7606C ;
+    border: 1px solid gray;
+}
+.house-4 .segment-4 {
+    width: 300px;
+    height: 20px;
+    background-color: #E7606C ;
+    border: 1px solid gray;
+}
+
+.house-4 .segment-3 {
+    width: 300px;
+    height: 240px;
+    background-color: #E7606C ;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid gray;
+}
+
+.house-4 .segment-3 .flower-window1 {
+    position: relative;
+    left:50px;
+    top: 21px;
+    width: 80px;
+    height: 120px;
+    background-color: #922630 ;
+    border: 1px solid black;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.house-4 .segment-3 .flower-window1 div:nth-child(1) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.house-4 .segment-3 .flower-window1 div:nth-child(2) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 45px;
+    margin-top: 20px;
+
+}
+
+.house-4 .segment-3 .flower-window1 div:nth-child(3) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 10px;
+    margin-top: 55px;
+
+}
+.house-4 .segment-3 .flower-window1 div:nth-child(4) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 45px;
+    margin-top: 55px;
+
+}
+
+.house-4 .segment-3 .flower-window1 div:nth-child(5) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 10px;
+    margin-top: 90px;
+
+}
+
+.house-4 .segment-3 .flower-window1 div:nth-child(6) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 45px;
+    margin-top: 90px;
+
+}
+
+.house-4 .segment-3 .flower-window1 >.greens {
+    width: 100px;
+    height: 20px;
+    background-color: thistle;
+    margin-top: 125px;
+    margin-left: -10px;
+    border-top: 3px solid green;
+    box-shadow: 2px -5px 8px 4px green;
+}
+
+.house-4 .segment-3 .flower-window2 {
+    position: relative;
+    left:160px;
+    bottom: 100px;
+    width: 80px;
+    height: 120px;
+    border: 1px solid black;
+    background-color: #922630 ;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+    
+}
+.house-4 .segment-3 .flower-window2 div:nth-child(1) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.house-4 .segment-3 .flower-window2 div:nth-child(2) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 45px;
+    margin-top: 20px;
+
+}
+
+.house-4 .segment-3 .flower-window2 div:nth-child(3) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 10px;
+    margin-top: 55px;
+
+}
+.house-4 .segment-3 .flower-window2 div:nth-child(4) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 45px;
+    margin-top: 55px;
+
+}
+
+.house-4 .segment-3 .flower-window2 div:nth-child(5) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 10px;
+    margin-top: 90px;
+
+}
+
+.house-4 .segment-3 .flower-window2 div:nth-child(6) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-left: 45px;
+    margin-top: 90px;
+
+}
+
+.house-4 .segment-3 .flower-window2 >.greens {
+    width: 100px;
+    height: 20px;
+    background-color: thistle;
+    margin-top: 125px;
+    margin-left: -7px;
+    border-top: 3px solid green;
+    box-shadow: 2px -5px 8px 4px green;
+}
+
+.house-4 .segment-2 {
+    width: 200px;
+    height: 50px;
+    background-color: #E7606C ;
+    margin-left: 50px;
+    box-shadow: 1px 1px 2px 3px black;
+}
+
+.house-4 .segment-1 {
+    width: 100px;
+    height: 60px;
+    margin-left: 100px;
+    background-color: #E7606C ;
+    border-top: 3px solid black ;
+    box-shadow: 1px 1px 2px 3px black;
+}
+
+.house-4 .segment-5 .entrance {
+    margin-left: 160px;
+    margin-top: 36px;
+}
+
+.house-4 .segment-5 .entrance div:nth-child(1) {
+    display: table-cell;
+    width: 40px;
+    height: 120px;
+    background-color: #922630 ;
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+}
+
+.house-4 .segment-5 .entrance div:nth-child(2) {
+    display: table-cell;
+    width: 40px;
+    height: 120px;
+    background-color: #922630;
+    border: 1px solid black;
+    border-top-right-radius: 30px;
+}
+
+.light {
+    display: inline-block;
+    margin-left: 190px;
+}
+.light div:nth-child(1) {
+    width: 80px;
+    height: 12px;
+    background-color: #222;
+    margin-left: -18px;
+    border-radius: 5px;
+}
+.light div:nth-child(2) {
+    width: 60px;
+    height: 80px;
+    border: 1px solid black;
+    margin-left: -9px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* opacity: 0.9; */
+
+}
+
+.light div > .fire {
+   width: 30px;
+   height: 50px;
+   margin-left: 15px;
+   margin-top: 29px;
+   box-shadow: 2px -4px 18px 11px rgb(204, 123, 58);
+   background-image: linear-gradient(25deg, orange, yellow);
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+.light div:nth-child(3) {
+    width: 35px;
+    height: 10px;
+    background-color: grey;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+.light div:nth-child(4) {
+    width: 15px;
+    height: 200px;
+    background-color: gray;
+    border: 1px solid black;
+    margin-left: 13px;
+}
+
+.light div:nth-child(5) {
+    width: 30px;height: 0;
+    border-bottom: 60px solid rgb(126, 125, 124);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    
+}
+
+.pavement {
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(black, brown, black)
+}
+
+
+
